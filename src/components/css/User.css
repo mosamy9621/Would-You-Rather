@@ -1,0 +1,65 @@
+.user-card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.5em;
+    border: solid 1px #6e6e6e8f;
+}
+.user-header {
+    flex-grow: 0;
+    padding: 0.6em;
+    border-right: solid 1px #cccccc;
+    background-color: rgba(240, 255, 255, 0.459);
+}
+.user-avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 22em;
+    margin: 0.2em;
+}
+.user-info {
+    flex-grow: 2;
+    font-size: larger;
+    margin: 0.7em 0.3em;
+}
+.user-name {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+.answered-questions {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #aaaaaa5d;
+}
+.questions-created {
+    margin-top: 1em;
+}
+.user-score {
+    flex-grow: 1;
+    margin: 0.5em;
+    border: 1px solid #aaaaaacb;
+}
+.score-header {
+    text-align: center;
+    padding: 0.4em;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #aaaaaa1f;
+    border-bottom: 1px solid #aaaaaad2;
+}
+.score-badge {
+    text-align: center;
+    margin: 15px auto;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(33, 165, 99, 0.788);
+    border-radius: 50%;
+    color: white;
+    width: 2.2em;
+    height: 2.2em;
+}
+.score-number{
+    padding-top: .5em;
+}
+.number {
+    float: right;
+}

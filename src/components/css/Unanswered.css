@@ -1,0 +1,33 @@
+.submit-btn {
+    padding: 0.8em 4em;
+    background-color: white;
+    color: #21a563c9;
+    border: solid 1px #21a563c9;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.submit-btn:hover {
+    background-color: #21a563c9;
+    color: white;
+}
+.question-title {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1em;
+}
+.radio-group {
+    font-size: larger;
+}
+.radio {
+    width: 2.93em;
+    margin: 1px;
+    height: 1.4em;
+    cursor: pointer;
+}
+.radio-label {
+    cursor: pointer;
+
+}

@@ -1,0 +1,21 @@
+.btn-group {
+    text-align: center;
+}
+.tab-btn{
+    padding:20px 60px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    margin: 0em .3em;
+}
+.tab-btn:hover{
+    background-color: rgba(196, 196, 196, 0.534);
+}
+.tab-active {
+    background-color: rgba(196, 196, 196, 0.534) !important;
+}
