@@ -8,7 +8,6 @@ export default function questions(state = {}, action) {
             }
         case SAVE_ANSWER:
             let arrVotes = state[action.qid][action.answer].votes;
-            console.log(arrVotes);
             return {
                 ...state,
                 [action.qid]: {

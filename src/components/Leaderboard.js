@@ -5,15 +5,14 @@ import { connect } from 'react-redux';
 class Leaderboard extends Component {
     render() {
         const { arrUsers } = this.props;
-        console.log(arrUsers);
         return (
             <div>
                 <Navbar page='leaderboard' />
                 <div className='container'>
                     <ul>
-                        {arrUsers.map(objUser => (
+                        {arrUsers.map((objUser,index) => (
                             <li key={objUser.id} >
-                                <User objUser={objUser} />
+                                <User index={index} objUser={objUser} />
                             </li>
                         ))
                         }

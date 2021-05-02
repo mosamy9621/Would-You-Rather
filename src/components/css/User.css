@@ -9,6 +9,7 @@
     padding: 0.6em;
     border-right: solid 1px #cccccc;
     background-color: rgba(240, 255, 255, 0.459);
+    position: relative;
 }
 .user-avatar {
     width: 140px;
@@ -57,9 +58,28 @@
     width: 2.2em;
     height: 2.2em;
 }
-.score-number{
-    padding-top: .5em;
+.score-number {
+    padding-top: 0.5em;
 }
 .number {
     float: right;
+}
+.ribbon {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display: none;
+    font-size: 2.4em;
+}
+#user-0 {
+    display: block;
+    color: rgb(241, 211, 36);
+}
+#user-1 {
+    display: block;
+    color: silver;
+}
+#user-2 {
+    display: block;
+    color: #d16602;
 }
