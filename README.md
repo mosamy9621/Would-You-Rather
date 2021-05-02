@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Would You Rather
+## Description
+###### This project is a simple web client application that meant to simulate a would you rather game.
+###### one of udacity front-end nano degree projects.
+## Dependencies 
+It uses number of open sources packages to work as desired :
+- [react](https://reactjs.org/) library v 16.6.3 
+- [react-router-dom](https://reactrouter.com/) Web routerv 5.2.0
+- [react-scripts](https://www.npmjs.com/package/react-scripts) react-scripts v 2.1.1 
+- [react-router](https://reactrouter.com/) react-router v 5.2.0
+- [redux](https://redux.js.org/) redux v 4.1.0
+- [react-redux-loading](https://www.npmjs.com/package/react-redux-loading) react-redux-loading v 4.6.1
+- [react-redux](https://react-redux.js.org/) react-redux v 7.2.4
+- [redux-thunk](https://www.npmjs.com/package/redux-thunk) redux-thunk v 2.3.0
+- [fortawesome/fontawesome-svg-core](https://fontawesome.com/how-to-use/on-the-web/using-with/react) fortawesome/fontawesome-svg-core v 1.2.35
+- [fortawesome/react-fontawesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react) fortawesome/fontawesome-svg-core v 0.1.14
+- [fortawesome/free-solid-svg-icons](https://fontawesome.com/how-to-use/on-the-web/using-with/react) fortawesome/free-solid-svg-icons v 5.15.3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+ 
+## Installation
+Would You Rather  require [Node.js](https://nodejs.org/en/) v14.16.0 + package manager to be installed 
+(to be able to install dependencies).
+```sh
+npm install --save
+```
+then after installing dependencies just type :
+```sh
+npm start
+```
+```sh
+http://localhost:3000 
+``` 
+## How to use
+### Login.
+###### This is what login page looks like , user can choose specific user and login.
+![alt Login](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/login.png)
+### Dashboard.
+###### Here listed unanswered questions and answered questions, user can switch between them.
+![alt Dashboard](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/dashboard.png)
 
-## Available Scripts
+### Unanswered question.
+###### user can choose one of the options to submit their answer.
+![alt Unanswered Question](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/unanswered-question.png)
 
-In the project directory, you can run:
+### Answered question.
+###### user can view their answer and other answer as well.
+![alt Answered Question](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/answered-question.png)
 
-### `npm start`
+### Create question.
+###### user can use this page to create questions to be added to unanswered questions.
+![alt Create Question](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/create-question.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Leaderboard.
+###### user can view their ranking compared with other users.
+![alt Leaderboard](https://raw.githubusercontent.com/mosamy9621/Would-You-Rather/master/blob/leaderboard.png)
