@@ -54,6 +54,12 @@ class UnansweredQuestion extends Component {
         );
     }
 }
+/**
+ * @description This function is responsible for getting state pieces that needed by this component and pass it to this component as its props.
+ * @param {object} param0 
+ * @param {object} param1 
+ * @returns {object}
+ */
 function mapStateToProps({ users, questions, authedUser }, { questionID }) {
     const question = questions[questionID];
     return {

@@ -3,6 +3,10 @@ import {  receiveUsers,addAnswer, attachQuestion } from "./users"
 import {getInitiallData,saveQuestionAnswer,saveQuestion} from '../utils/API';
 import { showLoading, hideLoading } from 'react-redux-loading';
 
+/**
+ * @description This is high order function that returns another function to deal with the api calls which get the initial data.
+ * @returns function(dispatch)
+ */
 export function handleInitialData() {
     return (dispatch) => {
         dispatch(showLoading());
@@ -13,6 +17,10 @@ export function handleInitialData() {
         });
     }
 }
+/**
+ * @description This is high order function that returns another function to deal with the api calls which save the answer of specific quesiton.
+ * @returns function(dispatch)
+ */
 export function handleSaveAnswer(authedUser, qid, answer){
     return (dispatch) =>{
         dispatch(showLoading());
@@ -23,6 +31,10 @@ export function handleSaveAnswer(authedUser, qid, answer){
         });
     }
 }
+/**
+ * @description This is high order function that returns another function to deal with the api calls which add new question.
+ * @returns function(dispatch)
+ */
 export function handleAddQuestion(question) {
     return (dispatch)=>{
         dispatch(showLoading());
@@ -32,4 +44,5 @@ export function handleAddQuestion(question) {
             dispatch(hideLoading());
         })
     }
+
 }

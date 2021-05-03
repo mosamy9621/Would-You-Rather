@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './css/Answered.css';
+
 class AnsweredQuestion extends Component {
     render() {
         const { question, user, author } = this.props;
@@ -47,6 +48,12 @@ class AnsweredQuestion extends Component {
         )
     }
 }
+/**
+ * @description This function is responsible for getting state pieces that needed by this component and pass it to this component as its props.
+ * @param {object} param0 
+ * @param {object} param1 
+ * @returns {object}
+ */
 function mapStateToProps({ users, questions, authedUser }, { questionID }) {
     const question = questions[questionID];
     return {

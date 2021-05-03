@@ -1,4 +1,11 @@
 import { RECEIVE_QUESTIONS, SAVE_ANSWER,ADD_QUESTION } from '../actions/questions';
+
+/**
+ * @description : This is a reducer function (pure function) and responsible for handling all the actions that deal with questions.
+ * @param {object} state 
+ * @param {object} action 
+ * @returns {object} new state after executing some action.
+ */
 export default function questions(state = {}, action) {
     switch (action.type) {
         case RECEIVE_QUESTIONS:

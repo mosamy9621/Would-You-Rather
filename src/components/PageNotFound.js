@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
-
+/**
+ * @description stateless component function that is responsible for creating page not found component.
+ * @param {object} props 
+ * @returns JSX describing the component view.
+ */
 function PageNotFound(props) {
     return (
         <div>

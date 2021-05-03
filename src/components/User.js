@@ -1,7 +1,11 @@
 import './css/User.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAward } from '@fortawesome/free-solid-svg-icons';
-
+ /**
+  * @description stateless component function that responsible for creating user component.
+  * @param {object} props 
+  * @returns JSX describing the component view. 
+  */
 function User(props) {
     const { index, objUser } = props;
     const answeredQuestions = Object.keys(objUser.answers).length;
@@ -40,5 +44,4 @@ function User(props) {
         </div>
     )
 }
-
 export default User;

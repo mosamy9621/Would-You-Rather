@@ -27,6 +27,12 @@ class ViewQuestion extends Component {
         )
     }
 }
+/**
+ * @description This function is responsible for getting state pieces that needed by this component and pass it to this component as its props.
+ * @param {object} param0 
+ * @param {object} props 
+ * @returns {object}
+ */
 function mapStateToProps({ questions,users, authedUser }, props) {
     const { id } = props.match.params;
     const answers = users[authedUser].answers;

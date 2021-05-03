@@ -1,5 +1,9 @@
 import Question from './Question';
-
+/**
+ * @descirption stateless component function that is responsible for creating question list component.
+ * @param {object} props 
+ * @returns JSX describing the component view. 
+ */
 function QuestionList(props) {
     const { questions } = props;
     if (questions.length === 0) {
@@ -20,5 +24,4 @@ function QuestionList(props) {
         </ul>
     )
 }
-
 export default QuestionList;
